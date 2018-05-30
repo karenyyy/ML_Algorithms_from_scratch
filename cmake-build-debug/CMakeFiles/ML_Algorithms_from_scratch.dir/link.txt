@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ML_Algorithms_from_scratch.dir/main.cpp.o CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.o  -o ML_Algorithms_from_scratch 
