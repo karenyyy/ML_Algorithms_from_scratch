@@ -8,7 +8,6 @@
 #include <algorithm>
 #include <functional>
 #include <numeric>
-#include "common.hpp"
 
 namespace ANN {
 
@@ -29,9 +28,9 @@ namespace ANN {
             return -1;
         }
 
-        CHECK(reg_kinds == -1 || reg_kinds == 0);
-        CHECK(train_method == 0 || train_method == 1);
-        CHECK(mini_batch_size >= 1 && mini_batch_size < train_num);
+        
+        
+        
 
         if (reg_kinds == REG_L1) this->lambda = (T)1.;
         if (train_method == MINI_BATCH) this->train_method = 1;
@@ -66,12 +65,12 @@ namespace ANN {
     template<typename T>
     int LogisticRegression<T>::train(const std::string& model)
     {
-        CHECK(data.size() == labels.size());
+        
 
         if (train_method == BATCH) batch_gradient_descent();
         else mini_batch_gradient_descent();
 
-        CHECK(store_model(model) == 0);
+        
 
         return 0;
     }
@@ -209,7 +208,7 @@ namespace ANN {
     template<typename T>
     T LogisticRegression<T>::predict(const T* data, int feature_length) const
     {
-        CHECK(feature_length + 1 == thetas.size());
+        
 
         T value{(T)0.};
         for (int t = 1; t < thetas.size(); ++t) {
@@ -246,7 +245,7 @@ namespace ANN {
     template<typename T>
     T LogisticRegression<T>::norm(const std::vector<T>& v1, const std::vector<T>& v2) const
     {
-        CHECK(v1.size() == v2.size());
+        
 
         T sum{ 0 };
 
