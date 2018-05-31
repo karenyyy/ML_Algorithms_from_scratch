@@ -17,8 +17,6 @@ def propagate(w, b, X, Y):
     dw -- gradient of the loss with respect to w, thus same shape as w
     db -- gradient of the loss with respect to b, thus same shape as b
 
-    Tips:
-    - Write your code step by step for the propagation. np.log(), np.dot()
     """
 
     m = X.shape[1]
