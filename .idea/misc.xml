@@ -3,7 +3,11 @@
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
   <component name="CidrRootsConfiguration">
     <sourceRoots>
+      <file path="$PROJECT_DIR$/dataset" />
       <file path="$PROJECT_DIR$/python" />
+      <file path="$PROJECT_DIR$/python/logistic_reg" />
+      <file path="$PROJECT_DIR$/python/logistic_reg_class" />
+      <file path="$PROJECT_DIR$/python/utils" />
     </sourceRoots>
   </component>
 </project>

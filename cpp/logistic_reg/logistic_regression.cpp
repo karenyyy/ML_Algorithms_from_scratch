@@ -30,7 +30,6 @@ namespace ANN {
 
         
         
-        
 
         if (reg_kinds == REG_L1) this->lambda = (T)1.;
         if (train_method == MINI_BATCH) this->train_method = 1;
