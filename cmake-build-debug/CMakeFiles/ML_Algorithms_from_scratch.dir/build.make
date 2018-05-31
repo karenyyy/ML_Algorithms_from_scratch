@@ -81,43 +81,121 @@ CMakeFiles/ML_Algorithms_from_scratch.dir/main.cpp.o.provides: CMakeFiles/ML_Alg
 CMakeFiles/ML_Algorithms_from_scratch.dir/main.cpp.o.provides.build: CMakeFiles/ML_Algorithms_from_scratch.dir/main.cpp.o
 
 
-CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.o: CMakeFiles/ML_Algorithms_from_scratch.dir/flags.make
-CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.o: ../logistic_reg/logistic_regression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karen/workspace/ML_Algorithms_from_scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.o -c /home/karen/workspace/ML_Algorithms_from_scratch/logistic_reg/logistic_regression.cpp
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.o: CMakeFiles/ML_Algorithms_from_scratch.dir/flags.make
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.o: ../cpp/logistic_reg/logistic_regression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karen/workspace/ML_Algorithms_from_scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.o -c /home/karen/workspace/ML_Algorithms_from_scratch/cpp/logistic_reg/logistic_regression.cpp
 
-CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karen/workspace/ML_Algorithms_from_scratch/logistic_reg/logistic_regression.cpp > CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.i
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karen/workspace/ML_Algorithms_from_scratch/cpp/logistic_reg/logistic_regression.cpp > CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.i
 
-CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karen/workspace/ML_Algorithms_from_scratch/logistic_reg/logistic_regression.cpp -o CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.s
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karen/workspace/ML_Algorithms_from_scratch/cpp/logistic_reg/logistic_regression.cpp -o CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.s
 
-CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.o.requires:
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.o.requires:
 
-.PHONY : CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.o.requires
+.PHONY : CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.o.requires
 
-CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.o.provides: CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.o.provides.build
-.PHONY : CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.o.provides
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.o.provides: CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.o.provides.build
+.PHONY : CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.o.provides
 
-CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.o.provides.build: CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.o
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.o.provides.build: CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.o
+
+
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.o: CMakeFiles/ML_Algorithms_from_scratch.dir/flags.make
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.o: ../cpp/neural_network/TraingData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karen/workspace/ML_Algorithms_from_scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.o -c /home/karen/workspace/ML_Algorithms_from_scratch/cpp/neural_network/TraingData.cpp
+
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karen/workspace/ML_Algorithms_from_scratch/cpp/neural_network/TraingData.cpp > CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.i
+
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karen/workspace/ML_Algorithms_from_scratch/cpp/neural_network/TraingData.cpp -o CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.s
+
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.o.requires:
+
+.PHONY : CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.o.requires
+
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.o.provides: CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.o.provides.build
+.PHONY : CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.o.provides
+
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.o.provides.build: CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.o
+
+
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.o: CMakeFiles/ML_Algorithms_from_scratch.dir/flags.make
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.o: ../cpp/neural_network/Neuron.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karen/workspace/ML_Algorithms_from_scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.o -c /home/karen/workspace/ML_Algorithms_from_scratch/cpp/neural_network/Neuron.cpp
+
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karen/workspace/ML_Algorithms_from_scratch/cpp/neural_network/Neuron.cpp > CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.i
+
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karen/workspace/ML_Algorithms_from_scratch/cpp/neural_network/Neuron.cpp -o CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.s
+
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.o.requires:
+
+.PHONY : CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.o.requires
+
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.o.provides: CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.o.provides.build
+.PHONY : CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.o.provides
+
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.o.provides.build: CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.o
+
+
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.o: CMakeFiles/ML_Algorithms_from_scratch.dir/flags.make
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.o: ../cpp/neural_network/Net.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karen/workspace/ML_Algorithms_from_scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.o -c /home/karen/workspace/ML_Algorithms_from_scratch/cpp/neural_network/Net.cpp
+
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karen/workspace/ML_Algorithms_from_scratch/cpp/neural_network/Net.cpp > CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.i
+
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karen/workspace/ML_Algorithms_from_scratch/cpp/neural_network/Net.cpp -o CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.s
+
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.o.requires:
+
+.PHONY : CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.o.requires
+
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.o.provides: CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.o.provides.build
+.PHONY : CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.o.provides
+
+CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.o.provides.build: CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.o
 
 
 # Object files for target ML_Algorithms_from_scratch
 ML_Algorithms_from_scratch_OBJECTS = \
 "CMakeFiles/ML_Algorithms_from_scratch.dir/main.cpp.o" \
-"CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.o"
+"CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.o" \
+"CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.o" \
+"CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.o" \
+"CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.o"
 
 # External object files for target ML_Algorithms_from_scratch
 ML_Algorithms_from_scratch_EXTERNAL_OBJECTS =
 
 ML_Algorithms_from_scratch: CMakeFiles/ML_Algorithms_from_scratch.dir/main.cpp.o
-ML_Algorithms_from_scratch: CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.o
+ML_Algorithms_from_scratch: CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.o
+ML_Algorithms_from_scratch: CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.o
+ML_Algorithms_from_scratch: CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.o
+ML_Algorithms_from_scratch: CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.o
 ML_Algorithms_from_scratch: CMakeFiles/ML_Algorithms_from_scratch.dir/build.make
 ML_Algorithms_from_scratch: CMakeFiles/ML_Algorithms_from_scratch.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/karen/workspace/ML_Algorithms_from_scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ML_Algorithms_from_scratch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/karen/workspace/ML_Algorithms_from_scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ML_Algorithms_from_scratch"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ML_Algorithms_from_scratch.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,7 +204,10 @@ CMakeFiles/ML_Algorithms_from_scratch.dir/build: ML_Algorithms_from_scratch
 .PHONY : CMakeFiles/ML_Algorithms_from_scratch.dir/build
 
 CMakeFiles/ML_Algorithms_from_scratch.dir/requires: CMakeFiles/ML_Algorithms_from_scratch.dir/main.cpp.o.requires
-CMakeFiles/ML_Algorithms_from_scratch.dir/requires: CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.o.requires
+CMakeFiles/ML_Algorithms_from_scratch.dir/requires: CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.o.requires
+CMakeFiles/ML_Algorithms_from_scratch.dir/requires: CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.o.requires
+CMakeFiles/ML_Algorithms_from_scratch.dir/requires: CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.o.requires
+CMakeFiles/ML_Algorithms_from_scratch.dir/requires: CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.o.requires
 
 .PHONY : CMakeFiles/ML_Algorithms_from_scratch.dir/requires
 

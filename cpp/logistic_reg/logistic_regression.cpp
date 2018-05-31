@@ -6,8 +6,8 @@
 
 #include <fstream>
 #include <algorithm>
-#include <functional>
-#include <numeric>
+
+using namespace std;
 
 namespace ANN {
 
@@ -255,6 +255,7 @@ namespace ANN {
 
         return std::sqrt(sum);
     }
+
 
     template class LogisticRegression<float>;
     template class LogisticRegression<double>;

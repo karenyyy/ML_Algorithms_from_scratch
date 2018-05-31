@@ -84,10 +84,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/karen/workspace/ML_Algorithms_from_scratch/logistic_reg/logistic_regression.cpp">
+		<Unit filename="/home/karen/workspace/ML_Algorithms_from_scratch/cpp/logistic_reg/logistic_regression.cpp">
 			<Option target="ML_Algorithms_from_scratch"/>
 		</Unit>
-		<Unit filename="/home/karen/workspace/ML_Algorithms_from_scratch/logistic_reg/logistic_regression.h">
+		<Unit filename="/home/karen/workspace/ML_Algorithms_from_scratch/cpp/logistic_reg/logistic_regression.h">
+			<Option target="ML_Algorithms_from_scratch"/>
+		</Unit>
+		<Unit filename="/home/karen/workspace/ML_Algorithms_from_scratch/cpp/neural_network/Net.cpp">
+			<Option target="ML_Algorithms_from_scratch"/>
+		</Unit>
+		<Unit filename="/home/karen/workspace/ML_Algorithms_from_scratch/cpp/neural_network/Net.h">
+			<Option target="ML_Algorithms_from_scratch"/>
+		</Unit>
+		<Unit filename="/home/karen/workspace/ML_Algorithms_from_scratch/cpp/neural_network/Neuron.cpp">
+			<Option target="ML_Algorithms_from_scratch"/>
+		</Unit>
+		<Unit filename="/home/karen/workspace/ML_Algorithms_from_scratch/cpp/neural_network/Neuron.h">
+			<Option target="ML_Algorithms_from_scratch"/>
+		</Unit>
+		<Unit filename="/home/karen/workspace/ML_Algorithms_from_scratch/cpp/neural_network/TraingData.cpp">
+			<Option target="ML_Algorithms_from_scratch"/>
+		</Unit>
+		<Unit filename="/home/karen/workspace/ML_Algorithms_from_scratch/cpp/neural_network/TraingData.h">
 			<Option target="ML_Algorithms_from_scratch"/>
 		</Unit>
 		<Unit filename="/home/karen/workspace/ML_Algorithms_from_scratch/main.cpp">

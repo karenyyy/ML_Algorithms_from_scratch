@@ -123,32 +123,113 @@ ML_Algorithms_from_scratch/fast:
 	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/build
 .PHONY : ML_Algorithms_from_scratch/fast
 
-logistic_reg/logistic_regression.o: logistic_reg/logistic_regression.cpp.o
+cpp/logistic_reg/logistic_regression.o: cpp/logistic_reg/logistic_regression.cpp.o
 
-.PHONY : logistic_reg/logistic_regression.o
+.PHONY : cpp/logistic_reg/logistic_regression.o
 
 # target to build an object file
-logistic_reg/logistic_regression.cpp.o:
-	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.o
-.PHONY : logistic_reg/logistic_regression.cpp.o
+cpp/logistic_reg/logistic_regression.cpp.o:
+	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.o
+.PHONY : cpp/logistic_reg/logistic_regression.cpp.o
 
-logistic_reg/logistic_regression.i: logistic_reg/logistic_regression.cpp.i
+cpp/logistic_reg/logistic_regression.i: cpp/logistic_reg/logistic_regression.cpp.i
 
-.PHONY : logistic_reg/logistic_regression.i
+.PHONY : cpp/logistic_reg/logistic_regression.i
 
 # target to preprocess a source file
-logistic_reg/logistic_regression.cpp.i:
-	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.i
-.PHONY : logistic_reg/logistic_regression.cpp.i
+cpp/logistic_reg/logistic_regression.cpp.i:
+	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.i
+.PHONY : cpp/logistic_reg/logistic_regression.cpp.i
 
-logistic_reg/logistic_regression.s: logistic_reg/logistic_regression.cpp.s
+cpp/logistic_reg/logistic_regression.s: cpp/logistic_reg/logistic_regression.cpp.s
 
-.PHONY : logistic_reg/logistic_regression.s
+.PHONY : cpp/logistic_reg/logistic_regression.s
 
 # target to generate assembly for a file
-logistic_reg/logistic_regression.cpp.s:
-	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/logistic_reg/logistic_regression.cpp.s
-.PHONY : logistic_reg/logistic_regression.cpp.s
+cpp/logistic_reg/logistic_regression.cpp.s:
+	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/logistic_reg/logistic_regression.cpp.s
+.PHONY : cpp/logistic_reg/logistic_regression.cpp.s
+
+cpp/neural_network/Net.o: cpp/neural_network/Net.cpp.o
+
+.PHONY : cpp/neural_network/Net.o
+
+# target to build an object file
+cpp/neural_network/Net.cpp.o:
+	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.o
+.PHONY : cpp/neural_network/Net.cpp.o
+
+cpp/neural_network/Net.i: cpp/neural_network/Net.cpp.i
+
+.PHONY : cpp/neural_network/Net.i
+
+# target to preprocess a source file
+cpp/neural_network/Net.cpp.i:
+	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.i
+.PHONY : cpp/neural_network/Net.cpp.i
+
+cpp/neural_network/Net.s: cpp/neural_network/Net.cpp.s
+
+.PHONY : cpp/neural_network/Net.s
+
+# target to generate assembly for a file
+cpp/neural_network/Net.cpp.s:
+	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Net.cpp.s
+.PHONY : cpp/neural_network/Net.cpp.s
+
+cpp/neural_network/Neuron.o: cpp/neural_network/Neuron.cpp.o
+
+.PHONY : cpp/neural_network/Neuron.o
+
+# target to build an object file
+cpp/neural_network/Neuron.cpp.o:
+	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.o
+.PHONY : cpp/neural_network/Neuron.cpp.o
+
+cpp/neural_network/Neuron.i: cpp/neural_network/Neuron.cpp.i
+
+.PHONY : cpp/neural_network/Neuron.i
+
+# target to preprocess a source file
+cpp/neural_network/Neuron.cpp.i:
+	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.i
+.PHONY : cpp/neural_network/Neuron.cpp.i
+
+cpp/neural_network/Neuron.s: cpp/neural_network/Neuron.cpp.s
+
+.PHONY : cpp/neural_network/Neuron.s
+
+# target to generate assembly for a file
+cpp/neural_network/Neuron.cpp.s:
+	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/Neuron.cpp.s
+.PHONY : cpp/neural_network/Neuron.cpp.s
+
+cpp/neural_network/TraingData.o: cpp/neural_network/TraingData.cpp.o
+
+.PHONY : cpp/neural_network/TraingData.o
+
+# target to build an object file
+cpp/neural_network/TraingData.cpp.o:
+	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.o
+.PHONY : cpp/neural_network/TraingData.cpp.o
+
+cpp/neural_network/TraingData.i: cpp/neural_network/TraingData.cpp.i
+
+.PHONY : cpp/neural_network/TraingData.i
+
+# target to preprocess a source file
+cpp/neural_network/TraingData.cpp.i:
+	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.i
+.PHONY : cpp/neural_network/TraingData.cpp.i
+
+cpp/neural_network/TraingData.s: cpp/neural_network/TraingData.cpp.s
+
+.PHONY : cpp/neural_network/TraingData.s
+
+# target to generate assembly for a file
+cpp/neural_network/TraingData.cpp.s:
+	$(MAKE) -f CMakeFiles/ML_Algorithms_from_scratch.dir/build.make CMakeFiles/ML_Algorithms_from_scratch.dir/cpp/neural_network/TraingData.cpp.s
+.PHONY : cpp/neural_network/TraingData.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +267,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ML_Algorithms_from_scratch"
-	@echo "... logistic_reg/logistic_regression.o"
-	@echo "... logistic_reg/logistic_regression.i"
-	@echo "... logistic_reg/logistic_regression.s"
+	@echo "... cpp/logistic_reg/logistic_regression.o"
+	@echo "... cpp/logistic_reg/logistic_regression.i"
+	@echo "... cpp/logistic_reg/logistic_regression.s"
+	@echo "... cpp/neural_network/Net.o"
+	@echo "... cpp/neural_network/Net.i"
+	@echo "... cpp/neural_network/Net.s"
+	@echo "... cpp/neural_network/Neuron.o"
+	@echo "... cpp/neural_network/Neuron.i"
+	@echo "... cpp/neural_network/Neuron.s"
+	@echo "... cpp/neural_network/TraingData.o"
+	@echo "... cpp/neural_network/TraingData.i"
+	@echo "... cpp/neural_network/TraingData.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
