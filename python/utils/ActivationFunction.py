@@ -8,7 +8,8 @@ class Sigmoid:
         return 1 / (1 + np.exp(-x))
 
     def gradient(self, x):
-        return self.sigmoid(x) * (1 - self.sigmoid(x))
+        p = self.sigmoid(x)
+        return p * (1 - p)
 
 
 class Softmax:
