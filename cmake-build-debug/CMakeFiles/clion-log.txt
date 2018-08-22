@@ -1,4 +1,0 @@
-/home/karen/Documents/jetbrain/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/karen/workspace/ML_Algorithms_from_scratch
--- Configuring done
--- Generating done
--- Build files have been written to: /home/karen/workspace/ML_Algorithms_from_scratch/cmake-build-debug

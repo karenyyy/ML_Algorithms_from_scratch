@@ -1,3 +1,0 @@
-/home/karen/workspace/ML_Algorithms_from_scratch/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/karen/workspace/ML_Algorithms_from_scratch/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/karen/workspace/ML_Algorithms_from_scratch/cmake-build-debug/CMakeFiles/ML_Algorithms_from_scratch.dir

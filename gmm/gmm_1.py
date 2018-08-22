@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Implement EM algrithem base on iris data set
-
-Created on Mon Oct 7 13:58:01 2017
-
-@author: Yuan
-"""
 
 from numpy import *
 import pandas as pd
