@@ -12,75 +12,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d36ac9a-309c-4ebf-bcb4-d0812f9a4cc9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML_Algorithms_from_scratch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML_Algorithms_from_scratch.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ML_Algorithms_from_scratch.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ML_Algorithms_from_scratch.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ML_Algorithms_from_scratch.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ML_Algorithms_from_scratch.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ML_Algorithms_from_scratch.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ML_Algorithms_from_scratch.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ML_Algorithms_from_scratch.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ML_Algorithms_from_scratch.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/logistic_reg/logistic_regression.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/logistic_reg/logistic_regression.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/neural_network/Net.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/neural_network/Net.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/neural_network/Neuron.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/neural_network/Neuron.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/neural_network/TraingData.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/neural_network/TraingData.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/gmm/gmm_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/gmm/gmm_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/logistic_reg/initialize_with_zeros.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/logistic_reg/load_dataset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/logistic_reg/model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/logistic_reg/optimize.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/logistic_reg/predict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/logistic_reg/propagate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/logistic_reg/sigmoid.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/logistic_reg/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/logistic_reg_class/LogisticReg.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/logistic_reg_class/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/neural_net/cs231_neural_net.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/neural_net/dlai_neural_net.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/utils/Accuracy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/utils/ActivationFunction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/utils/Diagonal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/utils/Gradient_Checking_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/utils/Initialization_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/utils/Normalize.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/utils/Regularization_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/utils/Split.py" beforeDir="false" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supervised/DecisionTree/DecisionNode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supervised/DecisionTree/DecisionTree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supervised/DecisionTree/DecisionTreeClassify.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supervised/DecisionTree/DecisionTreeRegression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supervised/DecisionTree/utils.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gmm/gmm_2.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gmm/gmm_1.py" afterPath="$PROJECT_DIR$/unsupervised/gmm/gmm_1.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logistic_reg/initialize_with_zeros.py" afterPath="$PROJECT_DIR$/basic/logistic_reg/initialize_with_zeros.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logistic_reg/load_dataset.py" afterPath="$PROJECT_DIR$/basic/logistic_reg/load_dataset.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logistic_reg/model.py" afterPath="$PROJECT_DIR$/basic/logistic_reg/model.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logistic_reg/optimize.py" afterPath="$PROJECT_DIR$/basic/logistic_reg/optimize.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logistic_reg/predict.py" afterPath="$PROJECT_DIR$/basic/logistic_reg/predict.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logistic_reg/propagate.py" afterPath="$PROJECT_DIR$/basic/logistic_reg/propagate.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logistic_reg/sigmoid.py" afterPath="$PROJECT_DIR$/basic/logistic_reg/sigmoid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logistic_reg/test.py" afterPath="$PROJECT_DIR$/basic/logistic_reg/test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/neural_net/cs231_neural_net.py" afterPath="$PROJECT_DIR$/basic/neural_net/cs231_neural_net.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/neural_net/dlai_neural_net.py" afterPath="$PROJECT_DIR$/basic/neural_net/dlai_neural_net.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ML_Algorithms_from_scratch.iml" afterPath="$PROJECT_DIR$/.idea/ML_Algorithms_from_scratch.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,11 +43,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gmm_1.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gmm/gmm_1.py">
+      <file leaf-file-name="DecisionTree.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/supervised/DecisionTree/DecisionTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="312">
+              <caret line="87" column="13" lean-forward="false" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DecisionTreeClassify.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supervised/DecisionTree/DecisionTreeClassify.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DecisionTreeRegression.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supervised/DecisionTree/DecisionTreeRegression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DecisionNode.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supervised/DecisionTree/DecisionNode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supervised/DecisionTree/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,10 +111,12 @@
       <find>self.param</find>
       <find>print\(</find>
       <find>std::</find>
+      <find>feature_i</find>
     </findStrings>
     <replaceStrings>
       <replace>self.w</replace>
       <replace># print \(</replace>
+      <replace>feature_index</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -166,6 +162,13 @@
         <option value="$PROJECT_DIR$/python/utils/Regularization_utils.py" />
         <option value="$PROJECT_DIR$/python/neural_net/dlai_neural_net.py" />
         <option value="$PROJECT_DIR$/gmm/gmm_1.py" />
+        <option value="$PROJECT_DIR$/DecisionTree/utils.py" />
+        <option value="$PROJECT_DIR$/DecisionTree/DecisionNode.py" />
+        <option value="$PROJECT_DIR$/DecisionTree/decision_tree.py" />
+        <option value="$PROJECT_DIR$/DecisionTree/DecisionTreeClassify.py" />
+        <option value="$PROJECT_DIR$/DecisionTree/DecisionTreeRegression.py" />
+        <option value="$PROJECT_DIR$/DecisionTree/DecisionTree.py" />
+        <option value="$PROJECT_DIR$/supervised/DecisionTree/DecisionTree.py" />
       </list>
     </option>
   </component>
@@ -184,11 +187,11 @@
     <packageJsonPaths />
   </component>
   <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="200" />
-    <option name="y" value="180" />
-    <option name="width" value="1079" />
-    <option name="height" value="855" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="815" />
+    <option name="y" value="71" />
+    <option name="width" value="1075" />
+    <option name="height" value="951" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -211,10 +214,21 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,18 +239,51 @@
             <path>
               <item name="ML_Algorithms_from_scratch" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML_Algorithms_from_scratch" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML_Algorithms_from_scratch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_Algorithms_from_scratch" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="neural_net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML_Algorithms_from_scratch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_Algorithms_from_scratch" type="462c0819:PsiDirectoryNode" />
               <item name="dataset" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ML_Algorithms_from_scratch" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML_Algorithms_from_scratch" type="462c0819:PsiDirectoryNode" />
+              <item name="logistic_reg_class" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML_Algorithms_from_scratch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_Algorithms_from_scratch" type="462c0819:PsiDirectoryNode" />
+              <item name="supervised" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML_Algorithms_from_scratch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_Algorithms_from_scratch" type="462c0819:PsiDirectoryNode" />
+              <item name="supervised" type="462c0819:PsiDirectoryNode" />
+              <item name="DecisionTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML_Algorithms_from_scratch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_Algorithms_from_scratch" type="462c0819:PsiDirectoryNode" />
+              <item name="unsupervised" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML_Algorithms_from_scratch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_Algorithms_from_scratch" type="462c0819:PsiDirectoryNode" />
+              <item name="unsupervised" type="462c0819:PsiDirectoryNode" />
               <item name="gmm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,9 +293,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DecisionTree" />
       <recent name="$PROJECT_DIR$/python" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/basic" />
+      <recent name="$PROJECT_DIR$/unsupervised" />
+      <recent name="$PROJECT_DIR$/supervised" />
       <recent name="$PROJECT_DIR$/python/utils" />
       <recent name="$PROJECT_DIR$/cpp" />
     </key>
@@ -265,15 +316,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Gradient_Checking_utils">
+  <component name="RunManager">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
-    <configuration name="ML_Algorithms_from_scratch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ML_Algorithms_from_scratch" TARGET_NAME="ML_Algorithms_from_scratch" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ML_Algorithms_from_scratch" RUN_TARGET_NAME="ML_Algorithms_from_scratch">
-      <envs />
-    </configuration>
     <configuration name="Gradient_Checking_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML_Algorithms_from_scratch" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -284,15 +331,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="ML_Algorithms_from_scratch" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/utils/Gradient_Checking_utils.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="Initialization_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML_Algorithms_from_scratch" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -303,15 +349,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="ML_Algorithms_from_scratch" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/utils/Initialization_utils.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="LogisticReg" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML_Algorithms_from_scratch" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -322,15 +367,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="ML_Algorithms_from_scratch" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/logistic_reg_class/LogisticReg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ML_Algorithms_from_scratch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ML_Algorithms_from_scratch" TARGET_NAME="ML_Algorithms_from_scratch" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ML_Algorithms_from_scratch" RUN_TARGET_NAME="ML_Algorithms_from_scratch">
+      <envs />
     </configuration>
     <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML_Algorithms_from_scratch" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -341,15 +388,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="ML_Algorithms_from_scratch" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/logistic_reg/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML_Algorithms_from_scratch" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -360,29 +406,32 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="ML_Algorithms_from_scratch" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/logistic_reg_class/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list>
-      <item itemvalue="Python.test (1)" />
-      <item itemvalue="Python.test (2)" />
-      <item itemvalue="Python.LogisticReg" />
-      <item itemvalue="Python.Initialization_utils" />
-      <item itemvalue="Python.Gradient_Checking_utils" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.Gradient_Checking_utils" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Initialization_utils" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.LogisticReg" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Python.Gradient_Checking_utils" />
-        <item itemvalue="Python.Initialization_utils" />
-        <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.test (2)" />
-        <item itemvalue="Python.LogisticReg" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.LogisticReg" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Initialization_utils" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Gradient_Checking_utils" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -403,37 +452,30 @@
     <option name="totallyTimeSpent" value="30117000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="235" y="194" width="1079" height="855" extended-state="1" />
+    <frame x="815" y="71" width="1075" height="951" extended-state="0" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46763393" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.13672923" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1304753" />
-      <window_info anchor="right" id="R Packages" order="3" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="CMake" order="7" />
-      <window_info anchor="right" id="JSON Viewer" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="LuaJ" order="3" />
-      <window_info anchor="right" id="JWT" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="JSON Utils" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.09933036" />
-      <window_info anchor="right" id="Data View" order="3" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="JWT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18054256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,20 +488,9 @@
     <breakpoint-manager>
       <option name="time" value="2" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gmm/gmm_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/cpp/logistic_reg/logistic_regression.h" />
-    <entry file="file://$PROJECT_DIR$/cpp/logistic_reg/logistic_regression.cpp" />
-    <entry file="file://$PROJECT_DIR$/main.cpp" />
     <entry file="file://$PROJECT_DIR$/cpp/logistic_reg/logistic_regression.h" />
     <entry file="file://$PROJECT_DIR$/cpp/logistic_reg/logistic_regression.cpp" />
     <entry file="file://$PROJECT_DIR$/main.cpp" />
@@ -502,10 +533,68 @@
     <entry file="file://$PROJECT_DIR$/python/logistic_reg_class/LogisticReg.py" />
     <entry file="file://$PROJECT_DIR$/python/utils/ActivationFunction.py" />
     <entry file="file://$PROJECT_DIR$/python/utils/Initialization_utils.py" />
-    <entry file="file://$PROJECT_DIR$/gmm/gmm_1.py">
+    <entry file="file://$PROJECT_DIR$/basic/logistic_reg/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="594">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/logistic_reg/sigmoid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmm/gmm_2.py" />
+    <entry file="file://$PROJECT_DIR$/unsupervised/gmm/gmm_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="72" column="17" lean-forward="false" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervised/DecisionTree/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervised/DecisionTree/DecisionNode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervised/DecisionTree/DecisionTreeClassify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervised/DecisionTree/DecisionTreeRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervised/DecisionTree/DecisionTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="87" column="13" lean-forward="false" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

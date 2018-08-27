@@ -1,12 +1,13 @@
 from sklearn import datasets
 
+from basic.logistic_reg_class.LogisticReg import LogisticRegression
+from utils.Accuracy import accuracy_score
 # Import helper functions
 from utils.Normalize import normalize
 from utils.Split import train_test_split
-from utils.Accuracy import accuracy_score
-# train_test_split, accuracy_score, Plot
 
-from logistic_reg_class.LogisticReg import LogisticRegression
+
+# train_test_split, accuracy_score, Plot
 
 
 def main():
