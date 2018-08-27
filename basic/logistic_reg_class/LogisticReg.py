@@ -3,7 +3,7 @@ import numpy as np
 import math
 
 from utils.ActivationFunction import Sigmoid
-from utils.Diagonal import diagonal
+from utils.utils import diagonal
 
 
 class LogisticRegression:
