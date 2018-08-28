@@ -1,7 +1,7 @@
 from sklearn import datasets
 
 from basic.logistic_reg_class.LogisticReg import LogisticRegression
-from utils.utils import accuracy_score, normalize, train_test_split
+from utils.util import accuracy_score, normalize, train_test_split
 
 
 # train_test_split, accuracy_score, Plot

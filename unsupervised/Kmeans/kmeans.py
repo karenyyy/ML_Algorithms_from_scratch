@@ -1,5 +1,5 @@
 import numpy as np
-from utils.utils import normalize, euclidean_distance
+from utils.util import normalize, euclidean_distance
 
 
 class KMeans(object):

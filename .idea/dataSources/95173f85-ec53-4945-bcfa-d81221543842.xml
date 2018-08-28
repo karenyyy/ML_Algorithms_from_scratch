@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="karenyyy@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="karenyyy">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="alexxx"/>
+    <schema id="4" parent="1" name="Alexxxx"/>
+    <schema id="5" parent="1" name="hvhjh"/>
+    <schema id="6" parent="1" name="information_schema"/>
+    <schema id="7" parent="1" name="Karen"/>
+    <schema id="8" parent="1" name="myDB"/>
+    <schema id="9" parent="1" name="mysql"/>
+    <schema id="10" parent="1" name="performance_schema"/>
+    <schema id="11" parent="1" name="phpmyadmin"/>
+    <schema id="12" parent="1" name="slotify"/>
+    <schema id="13" parent="1" name="test"/>
+    <schema id="14" parent="1" name="testapp"/>
+    <table id="15" parent="2" name="ALBUM"/>
+    <table id="16" parent="2" name="ARTIST"/>
+    <table id="17" parent="2" name="COLLECTION"/>
+    <table id="18" parent="2" name="COLLECTION_ALBUM"/>
+    <table id="19" parent="2" name="COLLECTION_SONG"/>
+    <table id="20" parent="2" name="HISTORY"/>
+    <table id="21" parent="2" name="SONG"/>
+    <table id="22" parent="2" name="Songs"/>
+    <table id="23" parent="2" name="USERS"/>
+    <table id="24" parent="2" name="albums"/>
+    <table id="25" parent="2" name="artists"/>
+    <table id="26" parent="2" name="playlistSongs"/>
+    <table id="27" parent="2" name="playlists"/>
+    <table id="28" parent="2" name="users"/>
+    <table id="29" parent="2" name="youtubeMv"/>
+    <column id="30" parent="15" name="AlbumID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="31" parent="15" name="ArtistID">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="15" name="AlbumName">
+      <Position>3</Position>
+      <DataType>char(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="15" name="Description">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="34" parent="15" name="Region">
+      <Position>5</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;US&apos;</DefaultExpression>
+    </column>
+    <column id="35" parent="15" name="AlbumCover">
+      <Position>6</Position>
+      <DataType>char(100)|0</DataType>
+    </column>
+    <index id="36" parent="15" name="ALBUM_AlbumName_uindex">
+      <ColNames>AlbumName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="37" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>AlbumID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="38" parent="15" name="ALBUM_AlbumName_uindex">
+      <ColNames>AlbumName</ColNames>
+      <UnderlyingIndexName>ALBUM_AlbumName_uindex</UnderlyingIndexName>
+    </key>
+    <column id="39" parent="16" name="ArtistID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="40" parent="16" name="ArtistName">
+      <Position>2</Position>
+      <DataType>char(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="41" parent="16" name="Biography">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="42" parent="16" name="ArtistPicture">
+      <Position>4</Position>
+      <DataType>char(100)|0</DataType>
+    </column>
+    <index id="43" parent="16" name="ArtistName">
+      <ColNames>ArtistName
+ArtistPicture</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="44" parent="16" name="ArtistName_2">
+      <ColNames>ArtistName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="45" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ArtistID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="46" parent="16" name="ArtistName">
+      <ColNames>ArtistName
+ArtistPicture</ColNames>
+      <UnderlyingIndexName>ArtistName</UnderlyingIndexName>
+    </key>
+    <key id="47" parent="16" name="ArtistName_2">
+      <ColNames>ArtistName</ColNames>
+      <UnderlyingIndexName>ArtistName_2</UnderlyingIndexName>
+    </key>
+    <column id="48" parent="17" name="CollectionName">
+      <Position>1</Position>
+      <DataType>char(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="17" name="UserID">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="17" name="CollectionID">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <index id="51" parent="17" name="USER_COLLEC_FK">
+      <ColNames>UserID</ColNames>
+    </index>
+    <key id="52" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>CollectionID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="53" parent="17" name="USER_COLLEC_FK">
+      <ColNames>UserID</ColNames>
+      <RefSchemaName>karenyyy</RefSchemaName>
+      <RefTableName>USERS</RefTableName>
+      <RefColNames>UserID</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="54" parent="18" name="CollectionID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="18" name="AlbumID">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="19" name="CollectionID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="19" name="SongID">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="20" name="SearchId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="59" parent="20" name="SongID">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="20" name="UserID">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="61" parent="20" name="HISTORY_USERS__fk">
+      <ColNames>UserID</ColNames>
+    </index>
+    <index id="62" parent="20" name="HISTORY__SONG_fk">
+      <ColNames>SongID</ColNames>
+    </index>
+    <key id="63" parent="20" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>SearchId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="64" parent="20" name="HISTORY__SONG_fk">
+      <ColNames>SongID</ColNames>
+      <RefSchemaName>karenyyy</RefSchemaName>
+      <RefTableName>SONG</RefTableName>
+      <RefColNames>SongID</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="65" parent="20" name="HISTORY_USERS__fk">
+      <ColNames>UserID</ColNames>
+      <RefSchemaName>karenyyy</RefSchemaName>
+      <RefTableName>USERS</RefTableName>
+      <RefColNames>UserID</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="66" parent="21" name="SongID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="67" parent="21" name="SongTitle">
+      <Position>2</Position>
+      <DataType>char(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="21" name="SongUrl">
+      <Position>3</Position>
+      <DataType>char(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="21" name="Rating">
+      <Position>4</Position>
+      <DataType>decimal(8,2)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+    </column>
+    <column id="70" parent="21" name="Genre">
+      <Position>5</Position>
+      <DataType>char(20)|0</DataType>
+    </column>
+    <column id="71" parent="21" name="ArtistID">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="72" parent="21" name="AlbumID">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="73" parent="21" name="SongCover">
+      <Position>8</Position>
+      <DataType>char(100)|0</DataType>
+    </column>
+    <index id="74" parent="21" name="SONG_SongTitle_uindex">
+      <ColNames>SongTitle</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="75" parent="21" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>SongID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="76" parent="21" name="SONG_SongTitle_uindex">
+      <ColNames>SongTitle</ColNames>
+      <UnderlyingIndexName>SONG_SongTitle_uindex</UnderlyingIndexName>
+    </key>
+    <column id="77" parent="22" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="78" parent="22" name="title">
+      <Position>2</Position>
+      <DataType>varchar(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="79" parent="22" name="artist">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="22" name="album">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="22" name="duration">
+      <Position>5</Position>
+      <DataType>varchar(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="82" parent="22" name="path">
+      <Position>6</Position>
+      <DataType>varchar(500)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="83" parent="22" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="84" parent="23" name="UserID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="85" parent="23" name="FirstName">
+      <Position>2</Position>
+      <DataType>char(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="23" name="LastName">
+      <Position>3</Position>
+      <DataType>char(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="87" parent="23" name="UserName">
+      <Position>4</Position>
+      <DataType>char(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="88" parent="23" name="Email">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="89" parent="23" name="Phone">
+      <Position>6</Position>
+      <DataType>char(30)|0</DataType>
+    </column>
+    <column id="90" parent="23" name="Password">
+      <Position>7</Position>
+      <DataType>char(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="91" parent="23" name="UserName">
+      <ColNames>UserName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="92" parent="23" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id
+UserID
+UserID
+id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="93" parent="23" name="UserName">
+      <ColNames>UserName</ColNames>
+      <UnderlyingIndexName>UserName</UnderlyingIndexName>
+    </key>
+    <column id="94" parent="24" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="95" parent="24" name="title">
+      <Position>2</Position>
+      <DataType>varchar(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="24" name="artist">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="97" parent="24" name="artworkPath">
+      <Position>4</Position>
+      <DataType>varchar(500)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="98" parent="24" name="userid">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="99" parent="24" name="albums_users_fk">
+      <ColNames>userid</ColNames>
+    </index>
+    <key id="100" parent="24" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="101" parent="24" name="albums_users_fk">
+      <ColNames>userid</ColNames>
+      <RefSchemaName>karenyyy</RefSchemaName>
+      <RefTableName>users</RefTableName>
+      <RefColNames>id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="102" parent="25" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="103" parent="25" name="name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="104" parent="25" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="105" parent="26" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="106" parent="26" name="songId">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="26" name="playlistId">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="108" parent="26" name="playlistOrder">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="109" parent="26" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="110" parent="27" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="111" parent="27" name="name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="112" parent="27" name="owner">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="113" parent="27" name="dateCreated">
+      <Position>4</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="114" parent="27" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="115" parent="28" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="116" parent="28" name="username">
+      <Position>2</Position>
+      <DataType>varchar(25)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="117" parent="28" name="firstName">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="118" parent="28" name="lastName">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="119" parent="28" name="email">
+      <Position>5</Position>
+      <DataType>varchar(200)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="120" parent="28" name="password">
+      <Position>6</Position>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="121" parent="28" name="signUpDate">
+      <Position>7</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="122" parent="28" name="profilePic">
+      <Position>8</Position>
+      <DataType>varchar(500)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="123" parent="29" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="124" parent="29" name="songid">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="125" parent="29" name="url">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="126" parent="29" name="youtubemv_song_fk">
+      <ColNames>songid</ColNames>
+    </index>
+    <key id="127" parent="29" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="128" parent="29" name="youtubemv_song_fk">
+      <ColNames>songid</ColNames>
+      <RefSchemaName>karenyyy</RefSchemaName>
+      <RefTableName>Songs</RefTableName>
+      <RefColNames>id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+  </database-model>
+</dataSource>

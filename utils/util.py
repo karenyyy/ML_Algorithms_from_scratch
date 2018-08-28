@@ -6,8 +6,17 @@ def accuracy_score(y_true, y_pred):
     return accuracy
 
 
+def cal_entropy(y):
+    # 越隨機的信源的熵越大
+    log2 = lambda x: np.log(x) / np.log(2)
+    entropy = 0
+    for y_unique in np.unique(y):
+        p = len(y[y == y_unique]) / len(y)
+        entropy += -p * log2(p)
+    return entropy
+
+
 def diagonal(x):
-    """ Converts a vector into an diagonal matrix """
     m = np.zeros((len(x), len(x)))
     for i in range(len(m[0])):
         m[i, i] = x[i]
@@ -41,7 +50,6 @@ def train_test_split(X, y, test_percent=0.5, shuffle=True, seed=None):
 
 def euclidean_distance(x1, x2):
     return np.sqrt(np.sum(np.square(x1 - x2), axis=0))
-
 
 # if __name__ == '__main__':
 #     print(euclidean_distance(np.array([1, 2, 3, 4]), np.array([4, 3, 2, 1])))
