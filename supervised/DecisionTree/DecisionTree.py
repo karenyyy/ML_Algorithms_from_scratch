@@ -19,7 +19,7 @@ class DecisionTree(object):
         best_sets = None
 
         # in case y=(n_samples, )
-        if len(np.shape(y)) == 1:
+        if len(y.shape) == 1:
             y = np.expand_dims(y, axis=1)
 
         X_y = np.concatenate((X, y), axis=1)

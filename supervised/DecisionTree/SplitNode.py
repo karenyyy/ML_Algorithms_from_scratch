@@ -1,5 +1,4 @@
 class SplitNode(object):
-
     def __init__(self, feature_index=None,
                  threshold=None,
                  value=None,

@@ -44,26 +44,19 @@ class KMeans(object):
         return centroids
 
     def get_cluster_labels(self, clusters, X):
-        y_pred = np.zeros(np.shape(X)[0])
+        y_pred = np.zeros(X.shape[0])
         for cluster_i, cluster in enumerate(clusters):
             for sample_i in cluster:
                 y_pred[sample_i] = cluster_i
         return y_pred
 
     def predict(self, X):
-
         centroids = self.init_random_centroids(X)
-
         for _ in range(self.max_iterations):
-
             clusters = self.clusterize(centroids, X)
-
             prev_centroids = centroids
-
             centroids = self.update_centroids(clusters, X)
-
             diff = centroids - prev_centroids
             if not diff.any():
                 break
-
             return self.get_cluster_labels(clusters, X)
