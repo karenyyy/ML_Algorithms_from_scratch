@@ -52,12 +52,19 @@ def euclidean_distance(x1, x2):
     return np.sqrt(np.sum(np.square(x1 - x2), axis=0))
 
 
+def cal_covariance_matrix(X):
+    mean = np.ones(X.shape) * X.mean(axis=0)
+    n_samples = X.shape[0]
+    variance = (1 / n_samples) * (X - mean).T.dot(X - mean)
+    return variance
+
+
 def mean_squared_error(y_test, y_pred):
     return np.mean(np.sqrt(np.square(np.abs(y_test - y_pred))))
 
 
 def polynomial_features(X, degree):
-    n_samples, n_features = np.shape(X)
+    n_samples, n_features = X.shape
 
     def index_combinations():
         combs = [combinations_with_replacement(range(n_features), i) for i in range(0, degree + 1)]
