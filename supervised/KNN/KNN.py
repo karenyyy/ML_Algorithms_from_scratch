@@ -6,7 +6,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import normalize
 from sklearn.metrics import accuracy_score
 from utils.util import euclidean_distance
-from utils.dim_reduction import PCA
 from utils.visualize import plot
 
 class KNN():
